@@ -1,6 +1,6 @@
 
 import Home from "./Components/Homes";
-import { BrowserRouter, Routes, Route } from "react-router";
+import {  Routes, Route } from "react-router";
 import Contact from "./Components/Contact";
 import Message from "./Components/Message";
 import Collection from "./Collection/Collection";
@@ -11,7 +11,7 @@ function App() {
     <>
 
 
-<BrowserRouter>
+
     <Routes>
  
     <Route path="/" element={<Home />} />
@@ -19,7 +19,7 @@ function App() {
     <Route path="/contact" element={<Contact />} />
     <Route path="/message" element={<Message />} />
   </Routes>
-  </BrowserRouter>
+  
 
 
   
